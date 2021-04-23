@@ -17,11 +17,9 @@ This is a plan on how to develop software faster and better
 
 1. Presentation Layer (Front End)
  
-2. IO Layer (Front End)
- 
-3. Function Layer ( Front End)
+2. Function Layer ( Front End)
 
-4. Service Layer (Back End)
+3. Service Layer (Back End)
 
 # Interfaces / Protocols
  1. HTML Naming Conventions (Between the Presentation and IO Layer)
@@ -33,13 +31,9 @@ This layer is seen by the user. It must be designed to look good an peform the f
 Presentation and the Functional Layer. The Presentation layer may interet return-codes from the Function layer and display them as messages in many different layers. 
 Components of the Presentatio layer are:
 1. Design, art, fonts, colors. Usability, user research. Looks of the application.
-
-## IO Layer
-The IO Layer make the controls shown on the presentation work. It converts user inputs to function inputs and function outputs to 
-data displayed to the user. 
-1. HTML, CSS, Inputs elements. Output elements.
-2. Function Inputs. Takes data from the users, transforms it as neccessar, and puts it into the functions. 
-3. Function Outputs. Takes data from functions and transforms it as needed and displayes data to the user
+2. HTML, CSS, Inputs elements. Output elements.
+3. Function Inputs. Takes data from the users, transforms it as neccessar, and puts it into the functions. 
+4. Function Outputs. Takes data from functions and transforms it as needed and displayes data to the user
 
 ## Function Layer
 The functions will be "Deep".  This means that one function will do as much work as possible for the caller. The purpose of this is to make the job of connecting the UI to the
@@ -66,23 +60,36 @@ In order to allow for foreign languages, each function will return a return code
 
 
 # Example of Workflow, Skills needed and persons to do that job
-
+## Service Layer Workflow for the 
 Task | Skills Needed | Person
 ---|----|---
 Service Design | Network Protocols   | Sean
 Service Design Review | Knowledge of Network Protcols | Partha, Alexander
 Service Implementation | Needs to know PHP or C | Sergiy, 
 Service Implementation Review | Needs to know PHP or C | Sergiy,
-Service Testing
+Service Testing | Testing Skills | Chernyshov
+Deploymnet | RAIDA Administration | Fel
+Manager | Managment Skills | Sean
+
+## Function Layer Workflow
+Task | Skills Needed | Person
+---|----|---
 Function Design | Javascript Programming | Alexander, Sean, Partha, 
 Function Design Reveiew | Interface Skills | Ravie, Partha, Sergiy
 Function Implementation |  Javascript Programming | Alexander, Ravi, Partha
 Function Code Review | Javascript Programming | Alexander, Ravi, Partha
 Function Testing | Testing | Sergiy, 
 
+## IO Layer Workflow
+Task | Skills Needed | Person
+---|----|---
+Presentation Design | UI / UX |  
+Presentation Design Reveiew | Interface Skills | Ravie, Partha, Sergiy
+Presentation Implementation |  Javascript Programming | Alexander, Ravi, Partha
+Presentation Code Review | Javascript Programming | Alexander, Ravi, Partha
+Presentation Testing | Testing | Avisek
 
 
-6. Fun
 
 
 
