@@ -1,4 +1,4 @@
-# Continuous-Development
+# Continuous-Delivery
 This is a plan on how to develop software faster and better
 
 # Elements of Consinuous Development
@@ -70,11 +70,16 @@ In order to allow for foreign languages, each function will return a return code
 Task | Skills Needed | Person
 ---|----|---
 Service Design | Network Protocols   | Sean
-└─ Service Design Review | Knowledge of Network Protcols | Partha, Alexander
-    └─Service Implementation | Needs to know PHP or C | Sergiy, 
-       └─Function Design | Javascript Programming | Alexander, Sean, Partha, 
-          └─Function Design Reveiew | Interface Skills | Ravie, Partha, Sergiy
-             └─Function Implementation |  Javascript Programming | Alexander, Ravi, Partha
+Service Design Review | Knowledge of Network Protcols | Partha, Alexander
+Service Implementation | Needs to know PHP or C | Sergiy, 
+Service Implementation Review | Needs to know PHP or C | Sergiy,
+Service Testing
+Function Design | Javascript Programming | Alexander, Sean, Partha, 
+Function Design Reveiew | Interface Skills | Ravie, Partha, Sergiy
+Function Implementation |  Javascript Programming | Alexander, Ravi, Partha
+Function Code Review | Javascript Programming | Alexander, Ravi, Partha
+Function Testing | Testing | Sergiy, 
+
 
 
 6. Fun
