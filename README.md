@@ -1,17 +1,21 @@
 # Continuous-Delivery
 This is a plan on how to develop software faster and better
 
-# Elements of Consinuous Development
-1. Four Layers of Software
-2. Deep Functions
-3. No Branches
-4. Daily Integrations
-5. Allways deployable
-6. Tiny Steps
-7. Specialization of Layer
-8. Return Codes
-9. Feature Flags
-10. Continuous Testing
+# Elements of CloudCoin Consinuous Development
+1. Three Layers of Software with three development teams.
+2. Development on layers happening in parallel to each other. 
+3. Serveral Levels/phases being worked on at the same time. 
+4. Project Managers find where the bottlenecks are. 
+5. Deep Functions (The functions do all the work so UI don't need to)
+6. No Branches
+7. Daily Integrations. Code is published everyday. With "Feature flags" that point to stable code and code under development. 
+8. Allways deployable
+9. Tiny Steps
+10. Developers can work on future phases when done with current phase
+11. Developers can work on other teams/layers when they like if qualified. 
+12. Return Codes 
+13. Feature Flags
+14. Continuous Testing
 
 # Layers of software
 
